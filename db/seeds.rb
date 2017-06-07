@@ -1,7 +1,29 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+10.times do |blog|
+  Blog.create!(
+  title: "My blog post #{blog}",
+  body: "Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb."
+  )
+end
+
+puts "10 blog posts created"
+
+5.times do |skill|
+  Skill.create!(
+  title: "All the skills, well #{skill} of them anyway.",
+  percent_utilised: 15
+  )
+end
+
+puts "5 skills created"
+
+9.times do |portfolio_item|
+  Portfolio.create!(
+  title: "Portfolio item #{portfolio_item}",
+  subtitle: "Awesome item",
+  body: "Chuck swine jowl ham frankfurter. Chicken salami t-bone kevin chuck ribeye pork loin pancetta leberkas short ribs jowl frankfurter andouille. Hamburger ball tip ribeye beef ribs rump t-bone shankle meatloaf sirloin kevin pork loin. Alcatra chicken sausage pork loin. Tail corned beef cupim ball tip.",
+  main_image: "http://via.placeholder.com/550x250",
+  thumb_image: "http://via.placeholder.com/350x150",
+  )
+end
+
+puts "9 portfolio items created"
