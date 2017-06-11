@@ -35,14 +35,22 @@ puts "5 skills created"
   )
 end
 
-1.times do |portfolio_item|
-  Portfolio.create!(
-  title: "Portfolio item #{portfolio_item}",
-  subtitle: "Javascript",
-  body: "Chuck swine jowl ham frankfurter. Chicken salami t-bone kevin chuck ribeye pork loin pancetta leberkas short ribs jowl frankfurter andouille. Hamburger ball tip ribeye beef ribs rump t-bone shankle meatloaf sirloin kevin pork loin. Alcatra chicken sausage pork loin. Tail corned beef cupim ball tip.",
-  main_image: "http://via.placeholder.com/550x250",
-  thumb_image: "http://via.placeholder.com/350x150",
+# 1.times do |portfolio_item|
+#   Portfolio.create!(
+#   title: "Portfolio item #{portfolio_item}",
+#   subtitle: "Javascript",
+#   body: "Chuck swine jowl ham frankfurter. Chicken salami t-bone kevin chuck ribeye pork loin pancetta leberkas short ribs jowl frankfurter andouille. Hamburger ball tip ribeye beef ribs rump t-bone shankle meatloaf sirloin kevin pork loin. Alcatra chicken sausage pork loin. Tail corned beef cupim ball tip.",
+#   main_image: "http://via.placeholder.com/550x250",
+#   thumb_image: "http://via.placeholder.com/350x150",
+#   )
+# end
+
+puts "9 portfolio items created"
+
+3.times do |tech|
+  Portfolio.last.technologies.create!(
+  name: "name #{tech}"
   )
 end
 
-puts "9 portfolio items created"
+puts "3 technologies created"
