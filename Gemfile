@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'dotenv-rails'
 gem 'friendly_id', '~> 5.1.0'
+gem 'devise', '~> 4.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
