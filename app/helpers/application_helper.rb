@@ -9,4 +9,12 @@ def login_helper
   end
 end
 
+def source_helper(layout_name)
+  if session[:source]
+    greeting = "Thanks for visiting this site from #{session[:source]} and you are on the #{layout_name} layout"
+    content_tag(:p, greeting, class: "source-greeting")
+  end
+end
+
+
 end
