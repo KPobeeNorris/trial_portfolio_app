@@ -16,5 +16,9 @@ def source_helper(layout_name)
   end
 end
 
+def copyright_generator
+  PobnoViewTool::Renderer.copyright("Kath Pobee-Norris", "All rights reserved")
+end
+
 
 end

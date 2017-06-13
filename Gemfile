@@ -35,6 +35,7 @@ gem 'dotenv-rails'
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3'
 gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'pobno_view_tool', git: "https://github.com/KPobeeNorris/devtool"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
