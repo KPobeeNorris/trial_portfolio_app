@@ -40,7 +40,7 @@ end
   title: "Portfolio item #{portfolio_item}",
   subtitle: "Javascript",
   body: "Chuck swine jowl ham frankfurter. Chicken salami t-bone kevin chuck ribeye pork loin pancetta leberkas short ribs jowl frankfurter andouille. Hamburger ball tip ribeye beef ribs rump t-bone shankle meatloaf sirloin kevin pork loin. Alcatra chicken sausage pork loin. Tail corned beef cupim ball tip.",
-  main_image: "http://via.placeholder.com/550x250",
+  main_image: "http://via.placeholder.com/600x400",
   thumb_image: "http://via.placeholder.com/350x150",
   )
 end
