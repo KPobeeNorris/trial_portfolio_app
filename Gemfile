@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'dotenv-rails'
-gem 'friendly_id', '~> 5.1.0'
+gem 'friendly_id', '~> 5.2.5'
 gem 'devise', '~> 4.6'
 gem 'bootstrap', '~> 4.3.1'
 gem 'pobno_view_tool', '~> 0.1.0'
