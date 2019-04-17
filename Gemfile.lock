@@ -72,8 +72,8 @@ GEM
     erubi (1.8.0)
     execjs (2.7.0)
     ffi (1.10.0)
-    font-awesome-rails (4.7.0.2)
-      railties (>= 3.2, < 5.2)
+    font-awesome-rails (4.7.0.5)
+      railties (>= 3.2, < 6.1)
     friendly_id (5.1.0)
       activerecord (>= 4.0.0)
     globalid (0.4.2)
@@ -227,7 +227,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.6)
   dotenv-rails
-  font-awesome-rails (~> 4.7, >= 4.7.0.2)
+  font-awesome-rails (~> 4.7)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
